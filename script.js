@@ -1,6 +1,3 @@
-"3qn4UShz1YWLleK5Fjkwg1Xto7oLJG7V"
-
-
 $("#search").on("click", function(){
 
     var searchInput = $("#search-input").val();
