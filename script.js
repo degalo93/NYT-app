@@ -1,6 +1,3 @@
-"3qn4UShz1YWLleK5Fjkwg1Xto7oLJG7V"
-
-
 $("#search").on("click", function(){
 
     var searchInput = $("#search-input").val();
@@ -22,11 +19,13 @@ $("#search").on("click", function(){
 
 
 
-        var snippet = console.log(response.response.docs[i].snippet)
-        var lead = response.response.docs[i].lead_paragraph;
-        var picture = response.response.docs.multimedia[5]
+        var snippet = (response.response.docs[i].snippet);
+        var lead = (response.response.docs[i].lead_paragraph);
+        var picture = (response.response.docs.multimedia[i]);
 
         console.log(response.response.docs[i].snippet);
+        console.log(response.response.docs[i].lead_paragraph);
+        console.log(response.response.docs.multimedia[i]);
 
 
         
