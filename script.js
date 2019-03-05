@@ -22,6 +22,7 @@ $("#search").on("click", function(){
           console.log(response.response.docs[i].lead_paragraph);
           console.log(response.response.docs.multimedia[i]);
 
+
         }
       
       })
